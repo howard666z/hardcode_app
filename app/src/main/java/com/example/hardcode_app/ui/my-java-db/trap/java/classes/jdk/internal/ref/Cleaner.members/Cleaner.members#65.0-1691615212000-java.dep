@@ -1,0 +1,17 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/jdk/internal/ref/Cleaner.members/Cleaner.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/jdk/internal/ref/Cleaner.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/lang/ref/PhantomReference.members.trap.gz
+classes/java/lang/ref/Reference.members.trap.gz
+classes/java/lang/ref/SoftReference.members.trap.gz
+classes/java/lang/ref/WeakReference.members.trap.gz
+classes/java/lang/ref/FinalReference.members.trap.gz
+classes/java/lang/ref/ReferenceQueue.members.trap.gz
+classes/java/lang/CloneNotSupportedException.members.trap.gz
+classes/java/lang/ThreadGroup.members.trap.gz
+classes/java/lang/Runnable.members.trap.gz

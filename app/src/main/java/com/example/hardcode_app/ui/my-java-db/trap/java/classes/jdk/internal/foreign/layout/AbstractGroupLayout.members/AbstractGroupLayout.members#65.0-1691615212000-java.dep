@@ -1,0 +1,23 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/jdk/internal/foreign/layout/AbstractGroupLayout.members/AbstractGroupLayout.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/jdk/internal/foreign/layout/AbstractGroupLayout.members.trap.gz
+classes/jdk/internal/foreign/layout/AbstractLayout.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/jdk/internal/foreign/layout/PaddingLayoutImpl.members.trap.gz
+classes/jdk/internal/foreign/layout/SequenceLayoutImpl.members.trap.gz
+classes/jdk/internal/foreign/layout/ValueLayouts$AbstractValueLayout.members.trap.gz
+classes/java/lang/String.members.trap.gz
+classes/java/util/Optional.members.trap.gz
+classes/jdk/internal/ValueBased.members.trap.gz
+classes/jdk/internal/foreign/layout/StructLayoutImpl.members.trap.gz
+classes/jdk/internal/foreign/layout/UnionLayoutImpl.members.trap.gz
+classes/java/lang/foreign/MemoryLayout.members.trap.gz
+classes/java/util/List.members.trap.gz
+classes/java/util/SequencedCollection.members.trap.gz
+classes/java/util/Collection.members.trap.gz
+classes/java/lang/Iterable.members.trap.gz
+classes/jdk/internal/foreign/layout/AbstractGroupLayout$Kind.members.trap.gz

@@ -1,0 +1,230 @@
+[2025-07-04 19:56:59] [javac-extractor-42839] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 21 --javac-args @@@/Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/log/ext/javac.args
+                                              user.dir=/Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui
+[2025-07-04 19:56:59] [javac-extractor-42839] Compilation name /Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/trap/java/diagnostics/diagnostic.trap.gz
+[2025-07-04 19:57:01] [javac-extractor-42839] Annotation processor class 'lombok.launch.AnnotationProcessorHider$AnnotationProcessor' initialized.
+[2025-07-04 19:57:01] [javac-extractor-42839] Annotation processor class 'lombok.launch.AnnotationProcessorHider$ClaimingProcessor' initialized.
+[2025-07-04 19:57:02] [javac-extractor-42839] Processing file KeyActivity.java
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown constructor invocation: super();
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: super.onCreate(savedInstanceState)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind VarAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind IDENTIFIER: setContentView(R.layout.activity_key)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: findViewById(R.id.btnTest).setOnClickListener((v)->testIpInfo())
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown type symbol for type 'recovery'
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind IDENTIFIER: findViewById(R.id.btnTest)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Failed to traverse method body at KeyActivity.java:31:18:31:29
+                                                      java.lang.NullPointerException: Cannot invoke "javac_extend.com.sun.tools.javac.code.Symbol$TypeSymbol.packge()" because the return value of "javac_extend.com.sun.tools.javac.code.Type.asElement()" is null
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.emitImplicitClass(ClassDeclExtractor.java:2503)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitLambda(ClassDeclExtractor.java:1932)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCLambda.accept(JCTree.java:2089)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitApply(ClassDeclExtractor.java:1806)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1911)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitExec(TreeTraversal.java:303)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitExec(ClassDeclExtractor.java:1506)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1698)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitBlock(TreeTraversal.java:192)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitBlock(ClassDeclExtractor.java:1123)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1150)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitMethodDef(ClassDeclExtractor.java:573)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:967)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitClassDef(ClassDeclExtractor.java:302)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCClassDecl.accept(JCTree.java:862)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.process(ClassDeclExtractor.java:193)
+                                                      	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:96)
+                                                      	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:650)
+                                                      	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:888)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: Log.e("IPinfo", "Error", e)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind ClassInstanceCreation
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unexpected symbol for constructor: new JSONObject(json)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind VarAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: obj.optString("ip", "N/A")
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind IDENTIFIER: runOnUiThread(()->{
+                                                          Toast.makeText(this, "IP: " + ip, Toast.LENGTH_LONG).show();
+                                                          Log.i("IPinfo", json);
+                                                      })
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Failed to traverse method body at KeyActivity.java:57:18:57:41
+                                                      java.lang.NullPointerException: Cannot invoke "javac_extend.com.sun.tools.javac.code.Symbol$TypeSymbol.packge()" because the return value of "javac_extend.com.sun.tools.javac.code.Type.asElement()" is null
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.emitImplicitClass(ClassDeclExtractor.java:2503)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitLambda(ClassDeclExtractor.java:1932)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCLambda.accept(JCTree.java:2089)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitApply(ClassDeclExtractor.java:1806)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1911)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitExec(TreeTraversal.java:303)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitExec(ClassDeclExtractor.java:1506)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1698)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitBlock(TreeTraversal.java:192)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitBlock(ClassDeclExtractor.java:1123)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1150)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTry(TreeTraversal.java:276)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitTry(ClassDeclExtractor.java:1438)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCTry.accept(JCTree.java:1560)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitBlock(TreeTraversal.java:192)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitBlock(ClassDeclExtractor.java:1123)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1150)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitMethodDef(ClassDeclExtractor.java:573)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:967)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitClassDef(ClassDeclExtractor.java:302)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCClassDecl.accept(JCTree.java:862)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.process(ClassDeclExtractor.java:193)
+                                                      	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:96)
+                                                      	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:650)
+                                                      	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:888)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind IDENTIFIER: runOnUiThread(()->Toast.makeText(this, message, Toast.LENGTH_SHORT).show())
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Failed to traverse method body at KeyActivity.java:74:18:74:26
+                                                      java.lang.NullPointerException: Cannot invoke "javac_extend.com.sun.tools.javac.code.Symbol$TypeSymbol.packge()" because the return value of "javac_extend.com.sun.tools.javac.code.Type.asElement()" is null
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.emitImplicitClass(ClassDeclExtractor.java:2503)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitLambda(ClassDeclExtractor.java:1932)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCLambda.accept(JCTree.java:2089)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitApply(ClassDeclExtractor.java:1806)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1911)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitExec(TreeTraversal.java:303)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitExec(ClassDeclExtractor.java:1506)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1698)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitBlock(TreeTraversal.java:192)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitBlock(ClassDeclExtractor.java:1123)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1150)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitMethodDef(ClassDeclExtractor.java:573)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:967)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitClassDef(ClassDeclExtractor.java:302)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCClassDecl.accept(JCTree.java:862)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.process(ClassDeclExtractor.java:193)
+                                                      	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:96)
+                                                      	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:650)
+                                                      	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:888)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: Log.i("Benchmark", "\u7b2c " + (i + 1) + " \u6b21\uff1a\u5ef6\u9072 " + latencies[i] + " ms, \u8a18\u61b6\u9ad4 " + memoryUsages[i] + " KB")
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: Log.e("Benchmark", "\u7b2c " + (i + 1) + " \u6b21\u6e2c\u8a66\u5931\u6557", e)
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind TypeAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind MEMBER_SELECT: Log.i("Benchmark", "\u2705 \u6e2c\u8a66\u5b8c\u6210\uff1a\u5e73\u5747\u5ef6\u9072 " + avgLatency + " ms, \u5e73\u5747\u8a18\u61b6\u9ad4\u4f7f\u7528 " + avgMemory + " KB")
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown or erroneous type for expression of kind MethodAccess
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Unknown method invocation of kind IDENTIFIER: runOnUiThread(()->Toast.makeText(this, "\u6e2c\u8a66\u5b8c\u6210\uff01\u5e73\u5747\u5ef6\u9072: " + avgLatency + " ms", Toast.LENGTH_LONG).show())
+[2025-07-04 19:57:02] [javac-extractor-42839] [ERROR] Failed to traverse method body at KeyActivity.java:78:18:78:33
+                                                      java.lang.NullPointerException: Cannot invoke "javac_extend.com.sun.tools.javac.code.Symbol$TypeSymbol.packge()" because the return value of "javac_extend.com.sun.tools.javac.code.Type.asElement()" is null
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.emitImplicitClass(ClassDeclExtractor.java:2503)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitLambda(ClassDeclExtractor.java:1932)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCLambda.accept(JCTree.java:2089)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitApply(ClassDeclExtractor.java:1806)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1911)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitExec(TreeTraversal.java:303)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitExec(ClassDeclExtractor.java:1506)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1698)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitBlock(TreeTraversal.java:192)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitBlock(ClassDeclExtractor.java:1123)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1150)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitLambda(ClassDeclExtractor.java:2017)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCLambda.accept(JCTree.java:2089)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitNewClass(TreeTraversal.java:349)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitNewClass(ClassDeclExtractor.java:1854)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCNewClass.accept(JCTree.java:1966)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitApply(ClassDeclExtractor.java:1805)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1911)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitExec(TreeTraversal.java:303)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitExec(ClassDeclExtractor.java:1506)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1698)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:524)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitBlock(TreeTraversal.java:192)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitBlock(ClassDeclExtractor.java:1123)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1150)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitMethodDef(ClassDeclExtractor.java:573)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:967)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.traverse(TreeTraversal.java:528)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.visitClassDef(ClassDeclExtractor.java:302)
+                                                      	at javac_extend.com.sun.tools.javac.tree.JCTree$JCClassDecl.accept(JCTree.java:862)
+                                                      	at com.semmle.extractor.java.visit.TreeTraversal.visitTree(TreeTraversal.java:535)
+                                                      	at com.semmle.extractor.java.ClassDeclExtractor.process(ClassDeclExtractor.java:193)
+                                                      	at com.semmle.extractor.java.CompilationUnitExtractor.process(CompilationUnitExtractor.java:96)
+                                                      	at com.semmle.extractor.java.JavaExtractor.runExtractor(JavaExtractor.java:650)
+                                                      	at com.semmle.extractor.java.JavaExtractor.main(JavaExtractor.java:888)
+[2025-07-04 19:57:05] [javac-extractor-42839] Processing module java.base
+[2025-07-04 19:57:05] [javac-extractor-42839] Javac init time: 1.4s
+[2025-07-04 19:57:05] [javac-extractor-42839] Javac attr time: 0.3s
+[2025-07-04 19:57:05] [javac-extractor-42839] Extractor time: 3.7s
+[2025-07-04 19:57:05] [javac-extractor-42839] Other time: 0.3s
+[2025-07-04 19:57:05] [javac-extractor-42839] Total time: 5.8s
+[2025-07-04 19:57:05] [javac-extractor-42839] [ERROR] 30 errors were reported by javac.

@@ -1,0 +1,12 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/lang/invoke/VarHandleByteArrayAsChars$ByteArrayViewVarHandle.members/VarHandleByteArrayAsChars$ByteArrayViewVarHandle.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/lang/invoke/VarHandleByteArrayAsChars$ByteArrayViewVarHandle.members.trap.gz
+classes/java/lang/invoke/VarHandle.members.trap.gz
+classes/java/lang/invoke/VarHandleByteArrayAsChars$ArrayHandle.members.trap.gz
+classes/java/lang/invoke/VarHandleByteArrayAsChars$ByteBufferHandle.members.trap.gz
+classes/java/lang/invoke/VarHandleByteArrayAsChars.members.trap.gz
+classes/java/lang/invoke/VarForm.members.trap.gz

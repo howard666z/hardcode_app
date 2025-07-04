@@ -1,0 +1,16 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/lang/ThreadBuilders$PlatformThreadBuilder.members/ThreadBuilders$PlatformThreadBuilder.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/lang/ThreadBuilders$PlatformThreadBuilder.members.trap.gz
+classes/java/lang/ThreadBuilders$BaseThreadBuilder.members.trap.gz
+classes/java/lang/Thread$Builder$OfPlatform.members.trap.gz
+classes/java/lang/ThreadBuilders.members.trap.gz
+classes/java/util/concurrent/ThreadFactory.members.trap.gz
+classes/java/lang/Runnable.members.trap.gz
+classes/java/lang/Thread.members.trap.gz
+classes/java/lang/ThreadGroup.members.trap.gz
+classes/java/lang/Thread$UncaughtExceptionHandler.members.trap.gz
+classes/java/lang/String.members.trap.gz

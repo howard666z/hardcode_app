@@ -1,0 +1,22 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/nio/DirectByteBuffer.members/DirectByteBuffer.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/nio/DirectByteBuffer.members.trap.gz
+classes/java/nio/MappedByteBuffer.members.trap.gz
+classes/sun/nio/ch/DirectBuffer.members.trap.gz
+classes/java/nio/DirectByteBufferR.members.trap.gz
+classes/java/nio/DoubleBuffer.members.trap.gz
+classes/java/nio/ByteBuffer.members.trap.gz
+classes/java/nio/FloatBuffer.members.trap.gz
+classes/java/nio/LongBuffer.members.trap.gz
+classes/java/nio/IntBuffer.members.trap.gz
+classes/java/nio/ShortBuffer.members.trap.gz
+classes/java/nio/CharBuffer.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/io/FileDescriptor.members.trap.gz
+classes/java/lang/foreign/MemorySegment.members.trap.gz
+classes/java/lang/Runnable.members.trap.gz
+classes/jdk/internal/ref/Cleaner.members.trap.gz

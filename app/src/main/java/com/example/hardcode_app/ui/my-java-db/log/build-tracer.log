@@ -1,0 +1,73 @@
+[T 11:56:54 42786] CodeQL CLI version 2.22.1
+[T 11:56:54 42786] Initializing tracer.
+[T 11:56:54 42786] Initializing tags.
+[T 11:56:54 42786] ID set to 000000000000A722_0000000000000001 (parent root)
+[T 11:56:54 42786] Initializing tracer.
+[T 11:56:54 42786] Initializing tags.
+[T 11:56:54 42786] ID set to 000000000000A722_0000000000000002 (parent root)
+[T 11:56:54 42786] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 11:56:54 42786] ==== Candidate to intercept: /Users/xujiancheng/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/xujiancheng/Documents/codeql/tools/osx64/runner-osx) ====
+[T 11:56:54 42786] Lua: === Intercepted call to /users/xujiancheng/documents/codeql/tools/osx64/runner-osx ===
+[T 11:56:54 42786] Executing the following tracer actions:
+[T 11:56:54 42786] Tracer actions:
+[T 11:56:54 42786] pre_invocations(0)
+[T 11:56:54 42786] post_invocations(0)
+[T 11:56:54 42786] trace_languages(1): [java]
+[T 11:56:54 42787] Attempting to switch stdout/stderr to 3...
+/Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/usr/bin/javac.semmle.0000A722.2DD3E348.slice.x86_64: replacing existing signature
+[T 11:56:56 42786] Initializing tracer.
+[T 11:56:56 42786] Initializing tags.
+[T 11:56:56 42786] ID set to 000000000000A722_0000000000000003 (parent 000000000000A722_0000000000000002)
+[T 11:56:56 42786] ==== Candidate to intercept: /usr/bin/javac (canonical: /usr/bin/javac) ====
+[T 11:56:56 42786] Lua: === Intercepted call to /usr/bin/javac ===
+[T 11:56:56 42786] Executing the following tracer actions:
+[T 11:56:56 42786] Tracer actions:
+[T 11:56:56 42786] pre_invocations(0)
+[T 11:56:56 42786] post_invocations(0)
+[T 11:56:56 42786] trace_languages(1): [java]
+[T 11:56:56 42811] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/javac.semmle.0000A722.05933F00.slice.x86_64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/javac.semmle.0000A722.05933F00.slice.x86_64
+/Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/javac.semmle.0000A722.05933F00.slice.x86_64: replacing existing signature
+[T 11:56:56 42786] Initializing tracer.
+[T 11:56:56 42786] Initializing tags.
+[T 11:56:56 42786] ID set to 000000000000A722_0000000000000004 (parent 000000000000A722_0000000000000003)
+[T 11:56:56 42786] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/javac (canonical: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/javac) ====
+[T 11:56:56 42786] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-21.jdk/contents/home/bin/javac ===
+[T 11:56:56 42786] Executing the following tracer actions:
+[T 11:56:56 42786] Tracer actions:
+[T 11:56:56 42786] pre_invocations(0)
+[T 11:56:56 42786] post_invocations(0)
+[T 11:56:56 42786] trace_languages(1): [java]
+[T 11:56:56 42786] Passing through -javaagent:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 11:56:56 42786] Passing through -Xbootclasspath/a:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 11:56:57 42786] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 11:56:58 42836] Attempting to switch stdout/stderr to 18...
+/Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/jspawnhelper.semmle.0000A722.0CC79758.slice.x86_64: replacing existing signature
+[T 11:56:58 42839] Initializing tracer.
+[T 11:56:58 42839] Initializing tags.
+[T 11:56:58 42839] ID set to 000000000000A757_0000000000000001 (parent 000000000000A722_0000000000000004)
+[T 11:56:58 42839] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 11:56:58 42839] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-21.jdk/contents/home/lib/jspawnhelper ===
+[T 11:56:58 42839] Executing the following tracer actions:
+[T 11:56:58 42839] Tracer actions:
+[T 11:56:58 42839] pre_invocations(0)
+[T 11:56:58 42839] post_invocations(0)
+[T 11:56:58 42839] trace_languages(1): [java]
+[T 11:56:58 42841] Attempting to switch stdout/stderr to 4...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java.semmle.0000A757.2A7727A0.slice.x86_64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java.semmle.0000A757.2A7727A0.slice.x86_64
+/Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui/my-java-db/working/copy-root/000001F7/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java.semmle.0000A757.2A7727A0.slice.x86_64: replacing existing signature
+[T 11:56:59 42839] Initializing tracer.
+[T 11:56:59 42839] Initializing tags.
+[T 11:56:59 42839] ID set to 000000000000A757_0000000000000002 (parent 000000000000A757_0000000000000001)
+[T 11:56:59 42839] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java) ====
+[T 11:56:59 42839] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-21.jdk/contents/home/bin/java ===
+[T 11:56:59 42839] Executing the following tracer actions:
+[T 11:56:59 42839] Tracer actions:
+[T 11:56:59 42839] pre_invocations(0)
+[T 11:56:59 42839] post_invocations(0)
+[T 11:56:59 42839] trace_languages(1): [java]
+[T 11:56:59 42839] Passing through -javaagent:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 11:56:59 42839] Passing through -Xbootclasspath/a:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 11:56:59 42839] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/xujiancheng/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

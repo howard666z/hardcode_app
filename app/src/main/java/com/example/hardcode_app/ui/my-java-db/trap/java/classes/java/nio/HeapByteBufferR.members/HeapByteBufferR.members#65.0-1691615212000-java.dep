@@ -1,0 +1,19 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/nio/HeapByteBufferR.members/HeapByteBufferR.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/nio/HeapByteBufferR.members.trap.gz
+classes/java/nio/HeapByteBuffer.members.trap.gz
+classes/java/nio/DoubleBuffer.members.trap.gz
+classes/java/nio/ByteBuffer.members.trap.gz
+classes/java/nio/FloatBuffer.members.trap.gz
+classes/java/nio/LongBuffer.members.trap.gz
+classes/java/nio/IntBuffer.members.trap.gz
+classes/java/nio/ShortBuffer.members.trap.gz
+classes/java/nio/CharBuffer.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/lang/Cloneable.members.trap.gz
+classes/java/io/Serializable.members.trap.gz
+classes/java/lang/foreign/MemorySegment.members.trap.gz

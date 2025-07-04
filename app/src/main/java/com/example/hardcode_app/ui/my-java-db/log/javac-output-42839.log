@@ -1,0 +1,129 @@
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:3: error: package android.os does not exist
+[2025-07-04 19:57:01] [javac-output-42839] import android.os.Bundle;
+[2025-07-04 19:57:01] [javac-output-42839]                  ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:4: error: package android.util does not exist
+[2025-07-04 19:57:01] [javac-output-42839] import android.util.Log;
+[2025-07-04 19:57:01] [javac-output-42839]                    ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:5: error: package android.widget does not exist
+[2025-07-04 19:57:01] [javac-output-42839] import android.widget.Button;
+[2025-07-04 19:57:01] [javac-output-42839]                      ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:6: error: package android.widget does not exist
+[2025-07-04 19:57:01] [javac-output-42839] import android.widget.Toast;
+[2025-07-04 19:57:01] [javac-output-42839]                      ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:7: error: package androidx.appcompat.app does not exist
+[2025-07-04 19:57:01] [javac-output-42839] import androidx.appcompat.app.AppCompatActivity;
+[2025-07-04 19:57:01] [javac-output-42839]                              ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:9: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839] import com.example.hardcode_app.R;
+[2025-07-04 19:57:01] [javac-output-42839]                                ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   class R
+[2025-07-04 19:57:01] [javac-output-42839]   location: package com.example.hardcode_app
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:11: error: package org.json does not exist
+[2025-07-04 19:57:01] [javac-output-42839] import org.json.JSONObject;
+[2025-07-04 19:57:01] [javac-output-42839]                ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:18: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839] public class KeyActivity extends AppCompatActivity {
+[2025-07-04 19:57:01] [javac-output-42839]                                  ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol: class AppCompatActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:24: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]     protected void onCreate(Bundle savedInstanceState) {
+[2025-07-04 19:57:01] [javac-output-42839]                             ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   class Bundle
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:23: error: method does not override or implement a method from a supertype
+[2025-07-04 19:57:01] [javac-output-42839]     @Override
+[2025-07-04 19:57:01] [javac-output-42839]     ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:25: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]         super.onCreate(savedInstanceState);
+[2025-07-04 19:57:01] [javac-output-42839]         ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable super
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:26: error: package R does not exist
+[2025-07-04 19:57:01] [javac-output-42839]         setContentView(R.layout.activity_key);
+[2025-07-04 19:57:01] [javac-output-42839]                         ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:32: error: package R does not exist
+[2025-07-04 19:57:01] [javac-output-42839]         findViewById(R.id.btnTest).setOnClickListener(v -> testIpInfo());
+[2025-07-04 19:57:01] [javac-output-42839]                       ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:33: error: package R does not exist
+[2025-07-04 19:57:01] [javac-output-42839]         findViewById(R.id.btnBenchmark).setOnClickListener(v -> benchmarkApiCall());
+[2025-07-04 19:57:01] [javac-output-42839]                       ^
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:51: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]                 Log.e("IPinfo", "Error", e);
+[2025-07-04 19:57:01] [javac-output-42839]                 ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Log
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:64: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             JSONObject obj = new JSONObject(json);
+[2025-07-04 19:57:01] [javac-output-42839]             ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   class JSONObject
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:64: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             JSONObject obj = new JSONObject(json);
+[2025-07-04 19:57:01] [javac-output-42839]                                  ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   class JSONObject
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:67: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             runOnUiThread(() -> {
+[2025-07-04 19:57:01] [javac-output-42839]             ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   method runOnUiThread(()->{ Toas[...]n); })
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:68: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]                 Toast.makeText(this, "IP: " + ip, Toast.LENGTH_LONG).show();
+[2025-07-04 19:57:01] [javac-output-42839]                                                   ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Toast
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:68: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]                 Toast.makeText(this, "IP: " + ip, Toast.LENGTH_LONG).show();
+[2025-07-04 19:57:01] [javac-output-42839]                 ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Toast
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:69: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]                 Log.i("IPinfo", json);
+[2025-07-04 19:57:01] [javac-output-42839]                 ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Log
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:75: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]         runOnUiThread(() -> Toast.makeText(this, message, Toast.LENGTH_SHORT).show());
+[2025-07-04 19:57:01] [javac-output-42839]         ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   method runOnUiThread(()->Toast.[...]how())
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:75: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]         runOnUiThread(() -> Toast.makeText(this, message, Toast.LENGTH_SHORT).show());
+[2025-07-04 19:57:01] [javac-output-42839]                                                           ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Toast
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:75: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]         runOnUiThread(() -> Toast.makeText(this, message, Toast.LENGTH_SHORT).show());
+[2025-07-04 19:57:01] [javac-output-42839]                             ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Toast
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:115: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]                     Log.i("Benchmark", "第 " + (i + 1) + " 次：延遲 " + latencies[i] + " ms, 記憶體 " + memoryUsages[i] + " KB");
+[2025-07-04 19:57:01] [javac-output-42839]                     ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Log
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:121: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]                     Log.e("Benchmark", "第 " + (i + 1) + " 次測試失敗", e);
+[2025-07-04 19:57:01] [javac-output-42839]                     ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Log
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:136: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             Log.i("Benchmark", "✅ 測試完成：平均延遲 " + avgLatency + " ms, 平均記憶體使用 " + avgMemory + " KB");
+[2025-07-04 19:57:01] [javac-output-42839]             ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Log
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:138: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             runOnUiThread(() -> Toast.makeText(this, "測試完成！平均延遲: " + avgLatency + " ms", Toast.LENGTH_LONG).show());
+[2025-07-04 19:57:01] [javac-output-42839]             ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   method runOnUiThread(()->Toast.[...]how())
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:138: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             runOnUiThread(() -> Toast.makeText(this, "測試完成！平均延遲: " + avgLatency + " ms", Toast.LENGTH_LONG).show());
+[2025-07-04 19:57:01] [javac-output-42839]                                                                                          ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Toast
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity
+[2025-07-04 19:57:01] [javac-output-42839] KeyActivity.java:138: error: cannot find symbol
+[2025-07-04 19:57:01] [javac-output-42839]             runOnUiThread(() -> Toast.makeText(this, "測試完成！平均延遲: " + avgLatency + " ms", Toast.LENGTH_LONG).show());
+[2025-07-04 19:57:01] [javac-output-42839]                                 ^
+[2025-07-04 19:57:01] [javac-output-42839]   symbol:   variable Toast
+[2025-07-04 19:57:01] [javac-output-42839]   location: class KeyActivity

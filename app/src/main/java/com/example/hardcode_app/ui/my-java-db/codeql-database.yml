@@ -1,0 +1,45 @@
+---
+sourceLocationPrefix: /Users/xujiancheng/Documents/hardcode_app/app/src/main/java/com/example/hardcode_app/ui
+baselineLinesOfCode: 103
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+inProgress:
+  primaryLanguage: java
+  installedExtractors:
+    go:
+     - /Users/xujiancheng/Documents/codeql/go
+    python:
+     - /Users/xujiancheng/Documents/codeql/python
+    rust:
+     - /Users/xujiancheng/Documents/codeql/rust
+    java:
+     - /Users/xujiancheng/Documents/codeql/java
+    html:
+     - /Users/xujiancheng/Documents/codeql/html
+    xml:
+     - /Users/xujiancheng/Documents/codeql/xml
+    properties:
+     - /Users/xujiancheng/Documents/codeql/properties
+    cpp:
+     - /Users/xujiancheng/Documents/codeql/cpp
+    swift:
+     - /Users/xujiancheng/Documents/codeql/swift
+    csv:
+     - /Users/xujiancheng/Documents/codeql/csv
+    actions:
+     - /Users/xujiancheng/Documents/codeql/actions
+    yaml:
+     - /Users/xujiancheng/Documents/codeql/yaml
+    csharp:
+     - /Users/xujiancheng/Documents/codeql/csharp
+    javascript:
+     - /Users/xujiancheng/Documents/codeql/javascript
+    ruby:
+     - /Users/xujiancheng/Documents/codeql/ruby
+creationMetadata:
+  cliVersion: 2.22.1
+  creationTime: 2025-07-04T11:56:54.496637Z
+finalised: false
+overlayBaseDatabase: false
+overlayDatabase: false

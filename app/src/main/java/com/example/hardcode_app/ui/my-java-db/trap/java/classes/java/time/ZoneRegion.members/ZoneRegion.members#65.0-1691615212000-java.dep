@@ -1,0 +1,15 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/time/ZoneRegion.members/ZoneRegion.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/time/ZoneRegion.members.trap.gz
+classes/java/time/ZoneId.members.trap.gz
+classes/java/io/Serializable.members.trap.gz
+classes/java/io/DataInput.members.trap.gz
+classes/java/io/IOException.members.trap.gz
+classes/java/io/DataOutput.members.trap.gz
+classes/java/time/ZoneOffset.members.trap.gz
+classes/java/time/zone/ZoneRules.members.trap.gz
+classes/java/lang/String.members.trap.gz

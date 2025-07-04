@@ -1,0 +1,11 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/jdk/internal/foreign/ConfinedSession.members/ConfinedSession.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/jdk/internal/foreign/ConfinedSession.members.trap.gz
+classes/jdk/internal/foreign/MemorySessionImpl.members.trap.gz
+classes/jdk/internal/vm/annotation/ForceInline.members.trap.gz
+classes/java/lang/Thread.members.trap.gz
+classes/java/lang/invoke/VarHandle.members.trap.gz

@@ -1,0 +1,13 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/nio/ByteBufferAsIntBufferL.members/ByteBufferAsIntBufferL.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/nio/ByteBufferAsIntBufferL.members.trap.gz
+classes/java/nio/IntBuffer.members.trap.gz
+classes/java/nio/ByteBufferAsIntBufferRL.members.trap.gz
+classes/java/nio/ByteOrder.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/nio/ByteBuffer.members.trap.gz
+classes/java/lang/foreign/MemorySegment.members.trap.gz

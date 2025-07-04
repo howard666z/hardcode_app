@@ -1,0 +1,17 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/jdk/internal/foreign/NativeMemorySegmentImpl.members/NativeMemorySegmentImpl.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/jdk/internal/foreign/NativeMemorySegmentImpl.members.trap.gz
+classes/jdk/internal/foreign/AbstractMemorySegmentImpl.members.trap.gz
+classes/jdk/internal/foreign/MappedMemorySegmentImpl.members.trap.gz
+classes/java/lang/foreign/MemorySegment.members.trap.gz
+classes/jdk/internal/vm/annotation/ForceInline.members.trap.gz
+classes/jdk/internal/foreign/MemorySessionImpl.members.trap.gz
+classes/java/lang/Runnable.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/nio/ByteBuffer.members.trap.gz
+classes/java/util/Optional.members.trap.gz
+classes/jdk/internal/ValueBased.members.trap.gz

@@ -1,0 +1,8 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/com/example/hardcode_app/ui/KeyActivity.members/KeyActivity.members#0.0-1751622578207-java.trap.gz
+
+TRAPS
+classes/com/example/hardcode_app/ui/KeyActivity.members.trap.gz
+classes/java/lang/Override.members.trap.gz

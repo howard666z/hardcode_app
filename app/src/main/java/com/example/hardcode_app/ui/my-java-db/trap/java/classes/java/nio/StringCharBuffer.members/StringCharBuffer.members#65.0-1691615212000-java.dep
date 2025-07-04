@@ -1,0 +1,12 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/nio/StringCharBuffer.members/StringCharBuffer.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/nio/StringCharBuffer.members.trap.gz
+classes/java/nio/CharBuffer.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/nio/ByteOrder.members.trap.gz
+classes/java/lang/String.members.trap.gz
+classes/java/lang/CharSequence.members.trap.gz

@@ -1,0 +1,12 @@
+TRAP dependencies 1.2
+
+TRAP
+classes/java/lang/invoke/DirectMethodHandle$Special.members/DirectMethodHandle$Special.members#65.0-1691615212000-java.trap.gz
+
+TRAPS
+classes/java/lang/invoke/DirectMethodHandle$Special.members.trap.gz
+classes/java/lang/invoke/DirectMethodHandle.members.trap.gz
+classes/java/lang/Object.members.trap.gz
+classes/java/lang/invoke/MethodType.members.trap.gz
+classes/java/lang/invoke/MethodHandle.members.trap.gz
+classes/java/lang/invoke/LambdaForm.members.trap.gz
